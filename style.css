@@ -1,0 +1,113 @@
+#container {
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+#layout0{
+    display: flex;
+    flex-direction: row;   
+    
+}
+
+#layout1{
+    display: flex;
+    flex-direction: column; 
+    
+    
+}
+#layout2{
+    display: flex;
+    flex-direction: column;
+    margin: auto ;
+}   
+#layout3{
+     display: flex;
+    flex-direction: row; 
+    align-content: space-evenly;
+    margin: 0 auto;
+}
+
+#layout5{
+    text-align: center;
+}
+
+
+.inputName{
+    border: 0px ;
+    outline: none;
+}
+
+.inputLong{
+    border:0px; 
+    outline: none;
+    height: 45px;
+    width: 450px;
+   
+}   
+ #Name{
+    width: 230px;
+    height: 50px;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#Username{
+    width: 230px;
+    height: 50px;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}   
+
+#Email{
+    width: 500px;
+    height: 50px;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}    
+
+#Password{
+    width: 500px;
+    height: 50px;
+    border: 1px solid #b4b4b4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}    
+
+#Create{
+    background-color: black;
+    display: flex;
+    border: 2px soild black;
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+}    
+ .BTN{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px; 
+    cursor: pointer;
+ }
+
+ 
+    
+
+    
+
+
